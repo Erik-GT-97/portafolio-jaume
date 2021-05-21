@@ -1,0 +1,20 @@
+.presentation {
+    text-align: center;
+    padding-block-start: 40px;
+    max-block-size: 900px;
+}
+
+.presentation p:nth-of-type(odd){
+    font: var(--body1);
+    font-size: 24px;
+}
+
+.presentation p:nth-of-type(even){
+    font: var(--headline5);
+}
+
+@media screen and (min-width: 768px) {
+    .presentation {
+        padding-block-start: 80px;
+    }
+}

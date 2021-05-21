@@ -1,0 +1,28 @@
+.header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between ;   
+    align-items: center;
+    block-size: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header-content .button{
+        display: none;
+    }    
+
+    .hidden {
+        display: block;
+        width: 140px;
+    }
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="images/logo.png" height="20" width="70" alt="logo" />
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#project">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="" class="button">Curriculum</a>
+                <div class="hidden"></div>
+            </div>
+        </div>   
+    </header>
+    <div class="wrapper">
+        <section aria-label="main" class="hero" id="main">
+            <div class="hero-image">
+                <img  src="./images/jaume.png" width="338" height="330" alt="foto">
+            </div>
+            <div class="hero-description">   
+                <h1>
+                    <span>!Hola a todos!</span>
+                    <span>Soy Jaume</span>
+                </h1>
+                <p>
+                    Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas 
+                </p>
+                <div class="social">
+                    <a class="button-icon"><img src="/icons/icon-github.svg" alt="icon"></a>
+                    <a class="button-icon"><img src="/icons/icon-important_mail.svg" alt="icon"></a> 
+                    <a class="button-icon"><img src="/icons/icon-instagram.svg" alt="icon"></a> 
+                    <a class="button-icon"><img src="/icons/icon-twitter_squared.svg" alt="icon"></a> 
+                </div>
+                <a href="" class="button">Descargar Curriculum</a>
+            </div>
+            
+        </section>
+        <div class="presentation">
+            <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+            <p>Aquí hay algunos que me gustaría compartir.</p>
+            <img src="images/arrow-down.png" alt="" />
+        </div>
+        <div class="project" id="project">
+            <div class="project-image">
+                <img alt="" src="./images/practice.png">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">leonidasesteban.com</a>
+                <p>
+                    Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.
+                </p>
+                <a target="_blank" href="https://github.com" class="button isSecondary">Ver Código</a>
+                <a target="_blank" href="https://leonidasesteban.com" class="button">Ver Proyecto</a>
+            </div>     
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img src="images/autor-1.png" alt=""/>
+            <p class="card-information">
+                "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".
+            </p>
+            <p class="card-autor">LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+            </div>
+            
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img alt="" src="./images/marvol.png">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">leonidasesteban.com</a>
+                <p>
+                    Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.
+                </p>
+                <a target="_blank" href="https://github.com" class="button isSecondary">Ver Código</a>
+                <a target="_blank" href="https://leonidasesteban.com" class="button">Ver Proyecto</a>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img src="images/autor-2.png" alt=""/>
+            <p class="card-information">
+                "Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".
+            </p>
+            <p class="card-autor">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+            </div>
+            
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img alt="" src="./images/netflax.png">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">leonidasesteban.com</a>
+                <p>
+                    Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.
+                </p>
+                <a target="_blank" href="https://github.com" class="button isSecondary">Ver Código</a>
+                <a target="_blank" href="https://leonidasesteban.com" class="button">Ver Proyecto</a>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img src="images/autor-3.png" alt=""/>
+            <p class="card-information">
+                "Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".
+            </p>
+            <p class="card-autor">MARCO CORTEZ / NETNET</p>
+            </div>
+            
+        </div>
+        <form action="" method="POST" class="form">
+            <div class="form-content">
+                <h2 class="title">Hablemos</h2>
+                <p>
+                    Si está interesado en trabajar conmigo en su próximo proyecto, 
+                    no dude en ponerse en contacto conmigo.
+                </p>
+                <label for="form-name">
+                    Nombre Completo
+                    <input required name="name" id="form-name" type="text" placeholder="juan">
+                </label>
+                
+                <label for="form-name">
+                    Correo electrónico
+                    <input required name="name" id="form-name" type="email" placeholder="juan">
+                </label>
+                
+                <label for="form-message">Mensaje
+                    <textarea required name="message" id="form-message" cols="30" rows="7" placeholder="Mensaje"></textarea>
+                </label>
+                
+                <button class="button" type="submit">Enviar mensaje</button>
+            </div>
+        </form>
+        <footer class="footer" id="contact">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" height="20" width="70" alt="logo" />
+                </div>
+                
+                <div class="social">
+                    <a class="button-icon"><img src="/icons/icon-github.svg" alt="icon"></a>
+                    <a class="button-icon"><img src="/icons/icon-important_mail.svg" alt="icon"></a> 
+                    <a class="button-icon"><img src="/icons/icon-instagram.svg" alt="icon"></a> 
+                    <a class="button-icon"><img src="/icons/icon-twitter_squared.svg" alt="icon"></a> 
+                </div>
+                <div class="footer-copyright">
+                    <p>
+                        Hecho con el ♥ por Erik.
+                    </p>
+                    <p> Copyright 2021 - Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
